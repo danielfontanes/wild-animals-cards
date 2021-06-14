@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@font-face {
+  font-family: WildFont;
+  src: url(/fonts/Wildest-Grass-Demo.otf);
+}
+body {
+  margin: 0px;
+}
+
+h1, h2, h3, p {
+  margin: 0px;
+}
+
+/* Background */
+/*Box model*/
+body {
+  /* Position */
+  /* Box model */
+  height: 100vh;
+  /* Text */
+  /* Visual */
+  background-color: #91B247;
+  background-image: url(/images/bg-images/leaf2.svg);
+  background-size: 50px;
+  background-position: center;
+  /* Other */
+}
+body header {
+  /* Position */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Box model */
+  margin-bottom: 10px;
+  /* Text */
+  /* Visual */
+  background-color: #597C2B;
+  background-image: url(/images/bg-images/leaf.svg);
+  background-size: 50px;
+  background-position: center;
+  /* Other */
+}
+body header .title {
+  /* Position */
+  /* Box model */
+  padding: 10px;
+  /* Text */
+  font-family: WildFont;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px black;
+  /* Visual */
+  color: white;
+  /* Other */
+}
+body main {
+  /* Position */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Box model */
+  /* Text */
+  /* Visual */
+  /* Other */
+}
+body main .card {
+  /* Position */
+  display: grid;
+  grid-template-columns: repeat(2, 48%);
+  column-gap: 4%;
+  /* Box model */
+  height: auto;
+  width: 370px;
+  margin: 10px;
+  /* Text */
+  text-align: center;
+  /* Visual */
+  background-color: #D2E459;
+  box-shadow: 1px 1px 10px black;
+  /* Other */
+}
+body main .card .box-image {
+  /* Position */
+  display: flex;
+  grid-column: 1/3;
+  /* Box model */
+  width: 370px;
+  /* Text */
+  /* Visual */
+  /* Other */
+}
+body main .card .box-image .card-image {
+  /* Position */
+  /* Box model */
+  width: 370px;
+  /* Text */
+  /* Visual */
+  /* Other */
+}
+body main .card h2 {
+  /* Position */
+  grid-column: 1/3;
+  /* Box model */
+  /* Text */
+  font-family: WildFont;
+  font-weight: normal;
+  text-shadow: 1px 1px 2px black;
+  /* Visual */
+  background-color: #80A142;
+  color: white;
+  /* Other */
+}
+body main .card h2:hover {
+  background-color: #98ba57;
+  text-shadow: 1px 1px 8px black;
+}
+body main .card h3 {
+  /* Position */
+  /* Box model */
+  /* Text */
+  text-align: end;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  /* Visual */
+  /* Other */
+}
+body main .card p {
+  /* Position */
+  /* Box model */
+  /* Text */
+  text-align: start;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  /* Visual */
+  /* Other */
+}
